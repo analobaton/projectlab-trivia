@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#welcome{
+	margin-left: 650px;
+	margin-top: 200px;
+}
+
+.title{
+	
+	color:#3761A9;
+	font-size: 50px;
+}
+
+.subtitle{
+	
+	color:#8E8E8E;
+	font-size: 30px;
+}
+
+body{
+	background: url();
+}
+
+
+
+
+#greeting{
+	margin-left: 650px;
+	margin-top: 20px;
+}
+
+#name{
+	font-size: 20px;
+}
+
+
+#btn-enviar{
+	margin-left: 80px;
+	margin-top: 20px;
+	background-color:#F0FF00;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+	border-radius: 8px;
+	border:none;
+	font-weight: bold; 
+}
