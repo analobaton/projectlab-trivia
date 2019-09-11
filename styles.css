@@ -3,6 +3,7 @@
 	padding: 0;
 }
 
+
 #welcome{
 	margin-left: 650px;
 	margin-top: 200px;
@@ -24,11 +25,8 @@ body{
 	background: url();
 }
 
-
-
-
 #greeting{
-	margin-left: 650px;
+	margin-left: 380px;
 	margin-top: 20px;
 }
 
@@ -36,8 +34,7 @@ body{
 	font-size: 20px;
 }
 
-
-#btn-enviar{
+#btn-submit{
 	margin-left: 80px;
 	margin-top: 20px;
 	background-color:#F0FF00;
@@ -49,4 +46,80 @@ body{
 	border-radius: 8px;
 	border:none;
 	font-weight: bold; 
+}
+.category{
+
+ justify-content: center;
+}
+#topic_one{
+	margin:20px;
+	padding: 10px;
+	background-image: url("peliculas.jpg");
+	background-repeat: no-repeat;
+	width: 350px;
+	height:200px;
+	background-size: 400px 200px;
+	display: inline-block;
+}
+#topic_two{
+	margin:20px;
+	padding: 10px;
+	background-image: url("libros.jpg");
+	background-repeat: no-repeat;
+	width: 350px;
+	height:200px;
+	background-size: 400px 200px;
+	display: inline-block;
+}
+#btn-categoryone{
+	margin-left: 120px;
+	margin-top: 20px;
+	background-color:#F0FF00;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 8px;
+	border:none;
+	font-weight: bold; 
+}
+#btn-categorytwo{
+	margin-left: 300px;
+	margin-top: 20px;
+	background-color:#F0FF00;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 8px;
+	border:none;
+	font-weight: bold; 
+}
+
+.optionsFilms{
+	background-color:#3761A9;
+	padding: 10px;
+	margin:10px;
+	width: 300px;
+	color:white;
+}
+
+#questionFilms{
+	margin-top: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: center;
+	justify-content: center;
+}
+
+.titleQuestion{
+	color:#3761A9;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
 }

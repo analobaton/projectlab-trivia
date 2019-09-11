@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>Trivia</title>
-	
 
-	<link rel="stylesheet" type="text/css" href="styles.css"> 
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
-	
-<body>
-<div id="welcome">
-	<h1 class="title">Bienvenido </h1>
-	<h2 class="subtitle">¿Cómo te llamas?</h2>
-	<input type="text" id="name" placeholder="Ingresa tu nombre aquí!" ><br>
-	<button type="button" id="btn-enviar" onclick="getName()">ENVIAR</button>  
-	
-</div>	
 
-<div id="greeting">
-	<h1 class="title" id= "resultado"></h1>
+<body>
+	<div id="welcome">
+		<h1 class="title">Bienvenido </h1>
+		<h2 class="subtitle">¿Cómo te llamas?</h2>
+		<input type="text" id="name" placeholder="Ingresa tu nombre aquí!"><br>
+		<button type="button" id="btn-submit" onclick="getName()">ENVIAR</button>
+
+	</div>
+
+	<div id="greeting">
+		<div>
+			<h1 class="title" id="resultado"></h1>
+			<h2>Pon a prueba tus conocimientos y elige una categoría</h2>
+		</div>
+
+		<div class="category">
+
+			<div id="topic_one"></div>
+			<div id="topic_two"></div>
+
+			<div class="category">
+				<button type="button" id="btn-categoryone" onclick="chooseFilms()">PELICULAS</button>
+				<button type="button" id="btn-categorytwo" onclick="chooseBooks()">LIBROS</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="questionFilms">
+		<p class="titleQuestion">¿El nombre completo del personaje de Kate Winslet en la pelicula TITANIC ?</p>
+		<div class="flex-center">
+			<div>
+				<button class="optionsFilms">Rose Smith Wild</button>
+				<button class="optionsFilms">Rose Dawson Blein</button>
+				<button class="optionsFilms">Rose DeWitt Bukater</button>
+			</div>
+		</div>
+
+
+	</div>
 	
-</div>	
-<script type="text/javascript" src=index.js></script>
+	<div id="questionBooks">
+		<h1 class="title">pregunta21</h1>
+	</div>
+
+
+	<script type="text/javascript" src=index.js></script>
 
 </body>
+
 </html>
