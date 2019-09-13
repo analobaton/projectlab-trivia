@@ -11,17 +11,18 @@
 </head>
 
 <body>
+	<h1 class="title">Juega tu Trivia.com </h1>
 	<div id="welcome">
-		<h1 class="title">Bienvenido </h1>
+		
 		<h2 class="subtitle">¿Cómo te llamas?</h2>
 		<input type="text" id="name" placeholder="Ingresa tu nombre aquí!"><br>
 		<button type="button" id="btn-submit" onclick="getName()">ENVIAR</button>
 
 	</div>
-
+	<h1 class="title" id="resultado"></h1>
 	<div id="greeting">
 		<div>
-			<h1 class="title" id="resultado"></h1>
+			
 			<h2>Pon a prueba tus conocimientos y elige una categoría</h2>
 		</div>
 
@@ -38,17 +39,53 @@
 	</div>
 
 	<div id="questionFilms">
-		<p class="titleQuestion">¿El nombre completo del personaje de Kate Winslet en la pelicula TITANIC ?</p>
-		<div class="flex-center">
-			<div>
-				<button class="optionsFilms">Rose Smith Wild</button>
-				<button class="optionsFilms">Rose Dawson Blein</button>
-				<button class="optionsFilms">Rose DeWitt Bukater</button>
+		<div id="questionone">
+			<p class="titleQuestion">¿El nombre completo del personaje de Kate Winslet en la pelicula TITANIC ?</p>
+			<div class="flex-center">
+				<div>
+				<button id ="answer1-1" class="optionsFilms" value="Rose Smith Wild" >Rose Smith Wild</button>
+				<button id ="answer2-1" class="optionsFilms" value="Rose Dawson Blein">Rose Dawson Blein</button>
+				<button id ="answer3-1" class="optionsFilms" value="Rose DeWitt Bukater">Rose DeWitt Bukater</button>
+				</div>
 			</div>
 		</div>
 
+		<div id="questiontwo">
+			<p class="titleQuestion">¿Cual fue la ultima pelicula que grabo Leonardo DiCaprio?</p>
+			<div class="flex-center">
+					<div>
+						<button id ="answer1-2" class="optionsFilms" value="El Renacido">El Renacido</button>
+						<button id ="answer2-2"class="optionsFilms" value="Django sin Cadenas">Django sin Cadenas</button>
+						<button id ="answer3-2"class="optionsFilms" value="Habia una vez en Hollywood">Habia una vez en Hollywood</button>
+					</div>
+			</div>
+		</div>
+		<div id="questionthree">
+			<p class="titleQuestion">¿En cuántas películas de Marvel aparece Iron Man/Tony Stark?</p>
+				<div class="flex-center">
+					<div>
+							<button id ="answer1-3" value="Seis" class="optionsFilms" >Seis</button>
+							<button id ="answer2-3" value="Diez" class="optionsFilms">Diez</button>
+							<button id ="answer3-3" value="Cuatro" class="optionsFilms">Cuatro</button>
+					</div>
+					
+				</div>
+				
+		</div>	
 
-	</div>
+
+		<div id="btn-score">
+			<button type="button" id= "btn-result" onclick="showResult()">ver resultado</button>
+
+			<h3>Tus resultado es :</h3>
+			<h3></h3>
+		
+			</div>
+
+		
+	
+
+
 	
 	<div id="questionBooks">
 		<h1 class="title">pregunta21</h1>

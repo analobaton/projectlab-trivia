@@ -5,28 +5,34 @@
 
 
 #welcome{
-	margin-left: 650px;
-	margin-top: 200px;
+	margin-left: 20px;
+	margin-top: 50px;
+	text-align: center;
 }
 
 .title{
-	
+	margin-left: 550px;
+	margin-top: 70px;
 	color:#3761A9;
 	font-size: 50px;
 }
 
+#resultado{
+	margin-right: 100px;
+}
 .subtitle{
-	
+	margin-bottom: 25px;
 	color:#8E8E8E;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 body{
-	background: url();
+	background:transparent;
 }
 
 #greeting{
-	margin-left: 380px;
+	text-align: center;
+	margin-left: 80px;
 	margin-top: 20px;
 }
 
@@ -35,9 +41,9 @@ body{
 }
 
 #btn-submit{
-	margin-left: 80px;
+	margin-left: 20px;
 	margin-top: 20px;
-	background-color:#F0FF00;
+	background-color:#ffe521;
 	padding-top:10px;
 	padding-bottom: 10px;
 	padding-right: 30px;
@@ -72,7 +78,7 @@ body{
 	display: inline-block;
 }
 #btn-categoryone{
-	margin-left: 120px;
+	margin-left: 100px;
 	margin-top: 20px;
 	background-color:#F0FF00;
 	padding-top:10px;
@@ -101,6 +107,7 @@ body{
 	padding: 10px;
 	margin:10px;
 	width: 300px;
+	border-radius: 10px;
 	color:white;
 }
 
@@ -121,5 +128,21 @@ body{
 
 .flex-center {
 	display: flex;
-	justify-content: center;
+	justify-content:center;
+}
+
+#btn-result{
+	
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color:#ffe521;
+	color: black;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 8px;
+	border:none;
+	font-weight: bold; 
+
 }
